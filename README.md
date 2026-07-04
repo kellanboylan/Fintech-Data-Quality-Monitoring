@@ -42,7 +42,6 @@ The dashboard gave the team a fast match/mismatch view across accounts, cards, c
 
 When a mismatch appeared, the team could immediately see which category needed attention.
 
-![Normalized vs Parquet transaction mismatch](images/02_normalized_vs_parquet_transaction_mismatch.png)
 ![Unit21 vs Parquet match](images/03_unit21_vs_parquet_match.png)
 
 ---
