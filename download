@@ -1,0 +1,7 @@
+# Ignore local/private files
+*.pbix
+*.xlsx
+*.csv
+*.parquet
+.env
+.DS_Store
