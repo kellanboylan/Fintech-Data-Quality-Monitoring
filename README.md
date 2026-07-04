@@ -51,8 +51,6 @@ When a mismatch appeared, the team could immediately see which category needed a
 I built checks comparing Unit21 transaction output against the latest parquet files. The dashboard showed both clean matches and mismatch states, then allowed drilldown by date and transaction type.
 
 
-![Unit21 vs Parquet mismatch](images/04_unit21_vs_parquet_mismatch.png)
-
 ![Quality alert summary](images/05_quality_alert_summary.png)
 ---
 
