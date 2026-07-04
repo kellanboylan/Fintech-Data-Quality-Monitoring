@@ -128,8 +128,4 @@ This project shows that I can:
 - Explain technical issues clearly to stakeholders
 - Support both analytics and data governance work
 
----
 
-## Confidentiality Note
-
-This is a sanitized version of real internship work. No private customer data, internal source files, credentials, proprietary queries, or sensitive error details are included.
