@@ -43,6 +43,7 @@ The dashboard gave the team a fast match/mismatch view across accounts, cards, c
 When a mismatch appeared, the team could immediately see which category needed attention.
 
 ![Normalized vs Parquet transaction mismatch](images/02_normalized_vs_parquet_transaction_mismatch.png)
+![Unit21 vs Parquet match](images/03_unit21_vs_parquet_match.png)
 
 ---
 
@@ -50,19 +51,20 @@ When a mismatch appeared, the team could immediately see which category needed a
 
 I built checks comparing Unit21 transaction output against the latest parquet files. The dashboard showed both clean matches and mismatch states, then allowed drilldown by date and transaction type.
 
-![Unit21 vs Parquet match](images/03_unit21_vs_parquet_match.png)
 
 ![Unit21 vs Parquet mismatch](images/04_unit21_vs_parquet_mismatch.png)
 
+![Quality alert summary](images/05_quality_alert_summary.png)
 ---
 
 ### 3. Automated Alerts
 
 I set up alert logic so the team could be notified when a check failed instead of manually reviewing everything each day.
 
-![Quality alert summary](images/05_quality_alert_summary.png)
 
 ![Power BI alert email](images/06_powerbi_alert_email.png)
+
+![Long-term volume monitoring](images/07_long_term_volume_monitoring.png)
 
 ---
 
@@ -70,7 +72,6 @@ I set up alert logic so the team could be notified when a check failed instead o
 
 The long-term views helped show transaction volume patterns over time instead of only checking one day at a time.
 
-![Long-term volume monitoring](images/07_long_term_volume_monitoring.png)
 
 The dashboard also broke down activity by transaction type, source, direction, and date range so the team could narrow down issues faster.
 
@@ -86,13 +87,14 @@ Once the dashboard showed a problem date, I queried and reviewed the underlying 
 
 ![Excel issue investigation](images/10_excel_issue_investigation.png)
 
+![DataHub ingestion recipe](images/11_datahub_ingestion_recipe.png)
+
 ---
 
 ### 6. DataHub Recipes and Assertions
 
 Beyond the dashboards, I created DataHub ingestion recipes and schema/freshness assertions to help monitor pipeline health and data asset reliability.
 
-![DataHub ingestion recipe](images/11_datahub_ingestion_recipe.png)
 
 ![DataHub schema assertions](images/12_datahub_schema_assertions.png)
 
