@@ -40,8 +40,6 @@ In a fintech environment, bad data can move quickly through reporting channels. 
 
 The dashboard gave the team a fast match/mismatch view across accounts, cards, customers, and transactions.
 
-![Normalized vs Parquet all match](images/01_normalized_vs_parquet_all_match.png)
-
 When a mismatch appeared, the team could immediately see which category needed attention.
 
 ![Normalized vs Parquet transaction mismatch](images/02_normalized_vs_parquet_transaction_mismatch.png)
